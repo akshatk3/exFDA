@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class Results {
+	private ArrayList<MedClass> meds;
+
+	public ArrayList<MedClass> getMeds() {
+		return meds;
+	}
+
+	public void setMeds(ArrayList<MedClass> meds) {
+		this.meds = meds;
+	}
+}

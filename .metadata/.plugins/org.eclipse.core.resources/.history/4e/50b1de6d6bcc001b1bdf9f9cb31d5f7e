@@ -1,0 +1,23 @@
+import java.util.Map;
+
+public class med {
+	private Meta meta;
+	private Result[] results;
+	
+	public med() {
+		
+	}
+	
+	public void setMeta(Meta m) {
+		meta = m;
+	}
+	public Meta getMeta() {
+		return meta;
+	}
+	public void setResults(Result[] m) {
+		results = m;
+	}
+	public Result[] getResults() {
+		return results;
+	}
+}

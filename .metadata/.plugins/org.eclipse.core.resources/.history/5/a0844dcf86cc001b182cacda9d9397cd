@@ -1,0 +1,26 @@
+//class constructed out of the fda approved medicinal label
+public class MedClass {
+	String effective_time;
+	String[] purpose;
+	String[] keep_out_of_reach_of_children;
+	String[] questions;
+	String[] pregnancy_or_breast_feeding;
+	String[] storage_and_handling;
+	String[] indications_and_usage;
+	String set_id;
+	String id;
+	String[] ask_doctor_or_pharmacist;
+	String[] active_ingredient;
+	String[] dosage_and_administration_table;
+	String[] inactive_ingredient;
+	String[] warnings;
+	String[] spl_product_data_elements;
+	String[] ask_doctor;
+	openFDA openfda;
+	String version;
+	String[] dosage_and_administration;
+	String[] spl_unclassified_section;
+	String[] stop_use;
+	String[] do_not_use;
+	String[] package_label_principal_display_panel;
+}

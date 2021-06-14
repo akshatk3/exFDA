@@ -1,0 +1,18 @@
+
+public class openFDA {
+	String[] application_number;
+	String[] brand_name;
+	String[] generic_name;
+	String[] manufacturer_name;
+	String[] product_ndc;
+	String[] product_type;
+	String[] route;
+	String[] substance_name;
+	String[] rxcui;
+	String[] spl_id;
+	String[] spl_set_id;
+	String[] package_ndc;
+	boolean[] is_original_packager;
+	String[] unii;
+	
+}

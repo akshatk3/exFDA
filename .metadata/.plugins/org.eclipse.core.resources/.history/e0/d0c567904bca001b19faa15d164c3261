@@ -1,0 +1,171 @@
+
+public class Result {
+	//private openfda openfda;
+	private String effective_time;
+	private String[] do_not_use;
+	private String[] stop_use;
+	private String[] spl_product_data_elements;
+	private String[] questions;
+	private String[] dosage_and_administration;
+	private String[] storage_and_handling;
+	private String[] package_label_principal_display_panel;
+	private String[] warnings;
+	private String version;
+	private String id;
+	private String[] pregnancy_or_breast_feeding;
+	private String[] purpose;
+	private String[] inactive_ingredient;
+	private String[] active_ingredient;
+	private String[] indications_and_usage;
+	private String set_id;
+	private String[] keep_out_of_reach_of_children;
+	
+	
+	public Result() {
+		
+	}
+	
+	
+	
+	public String getEffective_time() {
+		return effective_time;
+	}
+	public void setEffective_time(String ef) {
+		effective_time = ef;
+	}
+	
+	public String[] getInactive_ingredient() {
+		return inactive_ingredient;
+	}
+	public void setInactiveIngredient(String[] ii) {
+		inactive_ingredient = ii;
+	}
+	
+	public String[] getPurpose() {
+		return purpose;
+	}
+	public void setPurpose(String[] p) {
+		purpose = p;
+	}
+	
+	public String[] getKeep_out_of_reach_of_children() {
+		return keep_out_of_reach_of_children;
+	}
+	public void setKeep_out_of_reach_of_children(String[] s) {
+		keep_out_of_reach_of_children = s;
+	}
+	
+	public String[] getWarnings() {
+		return warnings;
+	}
+	public void setWarnings(String[] w) {
+		warnings = w;
+	}
+	
+	public String[] getQuestions() {
+		return questions;
+	}
+	public void setQuestions(String[] q) {
+		questions = q;
+	}
+	
+	public String[] getSpl_product_data_elements() {
+		return spl_product_data_elements;
+	}
+	public void setSpl_product_data_elements(String[] s) {
+		spl_product_data_elements = s;
+	}
+	
+	public String getVersion() {
+		return version;
+	}
+	public void setVersion(String v) {
+		version = v;
+	}
+	
+	public String[] getDosage_and_administration() {
+		return dosage_and_administration;
+	}
+	public void setDosage_and_administration(String[] s) {
+		dosage_and_administration = s;
+	}
+	
+	
+	public String[] getPregnancy_or_breast_feeding() {
+		return pregnancy_or_breast_feeding;
+	}
+	public void setPregnancy_or_breast_feeding(String[] s) {
+		pregnancy_or_breast_feeding = s;
+	}
+	
+	public String[] getStop_use() {
+		return stop_use;
+	}
+	public void setStop_use(String[] s) {
+		stop_use = s;
+	}
+	
+	public String[] getStorage_and_handling() {
+		return storage_and_handling;
+	}
+	public void setStorage_and_handling(String[] s) {
+		storage_and_handling = s;
+	}
+	
+	public String[] getDo_not_use() {
+		return do_not_use;
+	}
+	public void setDo_not_use(String[] s) {
+		do_not_use = s;
+	}
+	
+	public String[] getPackage_label_principal_display_panel() {
+		return package_label_principal_display_panel;
+	}
+	public void setPackage_label_principal_display_panel(String[] s) {
+		package_label_principal_display_panel = s;
+	}
+	
+	public String[] getIndications_and_usage() {
+		return indications_and_usage;
+	}
+	public void setIndications_and_usage(String[] s) {
+		indications_and_usage = s;
+	}
+	
+	public String getSet_id() {
+		return set_id;
+	}
+	public void setSet_id(String i) {
+		set_id = i;
+	}
+	
+	public String getID() {
+		return id;
+	}
+	public void setID(String i) {
+		id = i;
+	}
+	
+	public String[] getActive_ingredient() {
+		return active_ingredient;
+	}
+	public void setActive_ingredient(String[] s) {
+		active_ingredient = s;
+	}
+
+
+/*
+	public openfda getOpenfda() {
+		return openfda;
+	}
+
+
+
+	public void setOpenfda(openfda openfda) {
+		this.openfda = openfda;
+	}
+	
+	*/
+
+}

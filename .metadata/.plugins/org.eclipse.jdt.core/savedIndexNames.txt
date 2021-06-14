@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Users/kulka/Desktop/jav/.metadata/.plugins/org.eclipse.jdt.core
+935802071.index
+4162175148.index
+2051148883.index
+882648019.index
+2190168993.index
